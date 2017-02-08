@@ -1,0 +1,120 @@
+{
+  "form": {
+    "attributes": {
+      "action": "/",
+      "autocomplete": "on",
+      "enctype": "text/plain",
+      "method": "GET",
+      "name": "form",
+      "novalidate": "true",
+      "target": ""
+    }
+  },
+  "fields": [
+    {
+      "element": "input",
+      "label": "Förnamn",
+      "attributes": {
+        "type": "text",
+        "required": "true"
+      },
+      "grid": {
+        "size": 50
+      }
+    },
+    {
+      "element": "input",
+      "label": "Efternamn",
+      "attributes": {
+        "type": "text",
+        "required": "true"
+      },
+      "grid": {
+        "size": 50
+      }
+    },
+    {
+      "element": "input",
+      "label": "E-post",
+      "attributes": {
+        "type": "email",
+        "required": "true"
+      },
+      "grid": {
+        "size": 100
+      }
+    },
+    {
+      "element": "input",
+      "label": "Klubb/Lag",
+      "attributes": {
+        "type": "text",
+        "placeholder": "Inte obligatorisk"
+      },
+      "grid": {
+        "size": 100
+      }
+    },
+    {
+      "element": "input",
+      "label": "Födelsedag",
+      "attributes": {
+        "type": "datepicker",
+        "required": "true"
+      },
+      "grid": {
+        "size": 100
+      }
+    },
+    {
+      "element": "select",
+      "label": "Klass",
+      "attributes": {
+      },
+      "grid": {
+        "size": 100
+      },
+      "options": [
+        {
+          "value": "XS",
+          "label": "Extra Small"
+        },
+        {
+          "value": "S",
+          "label": "Small"
+        },
+        {
+          "value": "M",
+          "label": "Medium",
+          "selected": "true"
+        },
+        {
+          "value": "L",
+          "label": "Large"
+        }
+      ]
+    },
+    {
+      "element": "input",
+      "label": "Kupong/Rabattkod",
+      "attributes": {
+        "type": "text"
+      },
+      "grid": {
+        "size": 100
+      }
+    },
+    {
+      "element": "input",
+      "label": "Jag godkänner att mina uppgifter samlas in för anmälan, och utskickandet av information relaterad till Ledningslöpet via e-post. Jag godkänner att mitt namn, och bild på mig publiceras på Ledningslöpets webbsida och Facebook.",
+      "attributes": {
+        "type": "checkbox"
+      },
+      "grid": {
+        "size": 100
+      }
+    }
+  ]
+}
+
+  

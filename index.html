@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>1.0</title>
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <link rel="stylesheet" href="css/pikaday.css">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    .size-50 {
+      width: 50%;
+      float: left;
+    }
+    .label-text {
+      display: block
+    }
+    .checkbox-input input {
+      float: left;
+      width: 20%;
+      vertical-align: middle;
+    }
+    .checkbox-input .label-text {
+      display: inline;
+      float: right;
+      width: 80%;
+    }
+  </style>
+</head>
+<body>
+
+  <div id="form"> 
+  </div>
+  
+  <script src="SignupsForm.js"></script>
+  <script>
+    $("#form").signupForm({
+      json: "ledningslopet.json"
+    });
+  </script>
+
+</body>
+</html>

@@ -7,9 +7,7 @@ This is a small JQuery library built for interacting with the Signups API, but a
 The form element will be generated for you, so apply it to a wrapper.
 
 ~~~~
-$("#formWrapper").signupForm({
-  
-});
+$("#formWrapper").signupForm("form.json");
 ~~~~
 
 ## JSON Schema
